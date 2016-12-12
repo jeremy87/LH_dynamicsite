@@ -1,0 +1,641 @@
+/* MAIN STYLE SHEET */
+.yellow {
+	background-color: #eeff5d;
+}
+
+.yellow-mobile {
+	background-color: #eeff5d;
+}
+
+p.branding {
+	font-family: 'Open Sans';
+	font-size: .8em;
+	font-weight: 700;
+	color: #000;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+a.branding {
+	color: #000;
+}
+
+/* API STYLING */
+
+#streaming {
+	display: none;
+}
+
+#vekeo-api-streaming-container {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+/* CONFIRMATION STYLING */
+
+.subscription-status-label {
+	color: #000;
+	border: 3px solid #000;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+#popup-wrapper {
+	border: none;
+}
+
+#popup-title {
+	background-color: transparent;
+	color: #000;
+	font-family: 'Open Sans';
+	text-align: left;
+	padding: 10px 0 5px;
+}
+
+#popup-content {
+	background-color: transparent;
+	opactiy: 1;
+	padding: 0px;
+}
+
+.popup-message {
+	color: #000;
+}
+
+.popup-message p:first-child {
+	color: #000;
+}
+
+#subscription-response {
+	text-align: left;
+	color: #000;
+}
+
+/* DESKTOP STYLING */
+
+@media only screen and (min-width: 992px) {
+
+.desktop-bg {
+	background-image: url(../images/lorenzohenrie-bg.jpg);
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+    width: 100%;
+}
+
+.col-lg-8 {
+	text-align: center;
+}
+
+.desktop-margin-top {
+	margin-top: 7%;
+}
+
+.desktop-margin-bottom {
+	margin-bottom: 5%;
+}
+
+img.talent-image {
+	width: 175px;
+	border: 5px solid #fff;
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+
+h2.series-name {
+	font-family: 'Open Sans';
+	font-size: 1.6em;
+	font-weight: 400;
+	color: #eeff5d;
+	margin-bottom: 10px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+}
+
+h1.talent-name {
+	font-family: 'Open Sans';
+	font-size: 4em;
+	font-weight: 700;
+	color: #fff;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+}
+
+h4.event-date {
+	font-family: 'Open Sans';
+	font-size: 1.6em;
+	font-weight: 700;
+	color: #eeff5d;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+}
+
+p.main-copy {
+	font-family: 'Open Sans';
+	font-size: 1.6em;
+	font-weight: 400;
+	color: #fff;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+}
+
+.btn {
+    border-radius: 0px;
+    border: none;
+    margin-bottom: 30px;
+    padding: 7px 50px;
+    font-size: 1.6em;
+    font-family: Oswald;
+    font-weight: 400;
+    text-shadow: none;
+}
+
+.btn-signup {
+    color: #000;
+    background-color: #eeff5d;
+}
+
+.btn-signup:hover {
+    background-color: #fff;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+.gradient {
+	text-align: center;
+}
+
+.amc-plug {
+	background-color: #000;
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+
+img.amc-logo {
+	width: 150px;
+	margin-top: 20px;
+	float: right;
+}
+
+p.amc-copy {
+	font-family: 'Open Sans';
+	font-size: 1.6em;
+	font-weight: 400;
+	color: #fff;
+	margin-top: 20px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+}
+
+a.amc-link {
+	border-bottom: 3px solid #eeff5d;
+	text-decoration: none;
+	color: #fff;
+}
+
+a.amc-link:hover {
+	color: #000;
+	text-decoration: none;
+	background-color: #eeff5d;
+	padding: 5px 5px;
+	text-shadow: none;
+}
+
+.signup-future {
+	display: none;
+}
+
+.mobile-only {
+	display: none;
+}
+
+/* FAQ SLIDE OUT */
+
+.faq-slideout {
+    position: fixed;
+    top: 0;
+    left: -40%;
+    width: 40%;
+    height: 100%;
+    background: rgba(238, 255, 93, 0.95);
+    z-index: 100;
+    overflow: auto;
+}
+
+.slideout-container {
+    margin: auto;
+    padding: 30px 20px;
+}
+
+.slideout-menu .slideout-menu-toggle {
+    position: absolute;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+.slideout-menu .slideout-menu-toggle:hover {
+    color: #fff;
+}
+
+a.slideout-menu-toggle {
+	color: #fff;
+	border-bottom: 3px solid #eeff5d;
+}
+
+a.slideout-menu-toggle:hover {
+	color: #000;
+	text-decoration: none;
+	background-color: #eeff5d;
+	padding: 5px 5px;
+	text-shadow: none;
+}
+
+a.close-button {
+    float: right;
+    color: #000;
+    margin-top: -15px;
+    text-decoration: none;
+}
+
+a.close-button:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+h2.slideout-heading {
+	font-family: 'Open Sans';
+	font-size: 2.5em;
+	font-weight: 700;
+	color: #000;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+p.faq-question {
+	font-family: 'Open Sans';
+	font-size: 1.2em;
+	font-weight: 600;
+	color: #000;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+p.faq-answer {
+	font-family: 'Open Sans';
+	font-size: 1.2em;
+	font-weight: 300;
+	color: #000;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+p.faq-disclaimer {
+	font-family: 'Open Sans';
+	font-size: 1em;
+	font-weight: 300;
+	color: #000;
+	margin-bottom: 10px;
+}
+
+/* POP UP */
+
+#overlay {
+	display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.75);
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+}
+
+#popup {
+	display: none;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    background: #fff;
+    border-top: 5px solid #eeff5d;
+    width: 450px;
+    margin-left: -250px; /*Half the value of width to center div*/
+    margin-top: -125px; /*Half the value of height to center div*/
+    margin-bottom: 0px;
+    padding: 10px 20px;
+    z-index: 200;
+}
+
+ #popup-close {
+    display: block;
+    float: right;
+    padding: 5px 5px 10px 10px;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+h2.popup-heading {
+	font-family: 'Open Sans';
+	font-size: 1.6em;
+	font-weight: 700;
+	color: #000;
+	margin-bottom: 5px;
+}
+
+h4.popup-date {
+	font-family: 'Open Sans';
+	font-size: 1em;
+	font-weight: 400;
+	color: #000;
+	margin-bottom: 5px;
+	margin-top: 0px;
+}
+
+/* SLIDE TOGGLE */
+
+.streaming-info {
+	display: none;
+}
+
+p.streaming-info {
+	font-family: 'Open Sans';
+	font-size: 1.3em;
+	font-weight: 400;
+	color: #fff;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+}
+
+p.streaming-info-toggle {
+	margin-top: 20px;
+	margin-bottom: 0px;
+	color: #eeff5d;
+	text-decoration: underline;
+	font-family: 'Open Sans';
+	font-size: 1.1em;
+	font-weight: 300;
+}
+
+}
+
+/* MOBILE STYLING */
+
+@media only screen and (max-width: 992px) {
+
+.mobile-banner {
+	background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.9) 100%), url(../images/mobile-banner.jpg) no-repeat;
+ 	background: -webkit-gradient(linear, left top, left bottom, color-stop(40%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.69))), url(/images/image1.jpg) no-repeat;
+ 	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.9) 100%), url(../images/mobile-banner.jpg) no-repeat;
+ 	background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.9) 100%), url(../images/mobile-banner.jpg) no-repeat;
+ 	background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.9) 100%), url(../images/mobile-banner.jpg) no-repeat;
+ 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.9) 100%), url(../images/mobile-banner.jpg) no-repeat;
+ 	width: 100%;
+ 	height: 500px;
+ 	background-position: 15% 50%;
+ 	padding: 25px 0;
+}
+
+.mobile-banner-copy {
+	position: relative;
+	top: 315px;
+}
+
+h2.series-name {
+	font-family: 'Open Sans';
+	font-size: 1.4em;
+	font-weight: 400;
+	color: #eeff5d;
+	margin-bottom: 0px;
+}
+
+h1.talent-name {
+	font-family: 'Open Sans';
+	font-size: 2.7em;
+	font-weight: 700;
+	color: #fff;
+	margin-top: 3px;
+	margin-bottom: 0px;
+}
+
+h4.event-date {
+	font-family: 'Open Sans';
+	font-size: 1.2em;
+	font-weight: 700;
+	color: #eeff5d;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.black {
+	background-color: #000;
+}
+
+p.main-copy {
+	font-family: 'Open Sans';
+	font-size: 1.3em;
+	font-weight: 400;
+	color: #fff;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: justify;
+}
+
+.amc-plug {
+	background-color: #c2c2c2;
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+
+img.amc-logo {
+	width: 150px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+p.amc-copy {
+	font-family: 'Open Sans';
+	font-size: 1.3em;
+	font-weight: 600;
+	color: #fff;
+	margin-top: 20px;
+	text-align: justify;
+}
+
+a.amc-link {
+	border-bottom: 3px solid #eeff5d;
+	text-decoration: none;
+	color: #fff;
+}
+
+/* FAQ SLIDE OUT */
+
+.faq-slideout {
+    position: fixed;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    height: 100%;
+    background: rgba(238, 255, 93, 0.95);
+    z-index: 100;
+    overflow: auto;
+}
+
+.slideout-container {
+    margin: auto;
+    padding: 30px 20px;
+}
+
+.slideout-menu .slideout-menu-toggle {
+    position: absolute;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+.slideout-menu .slideout-menu-toggle:hover {
+    color: #fff;
+}
+
+a.slideout-menu-toggle {
+	color: #fff;
+	border-bottom: 3px solid #eeff5d;
+}
+
+a.slideout-menu-toggle:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+a.close-button {
+    float: right;
+    color: #000;
+    margin-top: -15px;
+    text-decoration: none;
+}
+
+a.close-button:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+h2.slideout-heading {
+	font-family: 'Open Sans';
+	font-size: 2.5em;
+	font-weight: 700;
+	color: #000;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+p.faq-question {
+	font-family: 'Open Sans';
+	font-size: 1.2em;
+	font-weight: 600;
+	color: #000;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+p.faq-answer {
+	font-family: 'Open Sans';
+	font-size: 1.2em;
+	font-weight: 300;
+	color: #000;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+p.faq-disclaimer {
+	font-family: 'Open Sans';
+	font-size: 1em;
+	font-weight: 300;
+	color: #000;
+	margin-bottom: 10px;
+}
+
+/* STREAMING INFO SLIDE TOGGLE */
+
+.streaming-info {
+	display: none;
+}
+
+p.streaming-info {
+	font-family: 'Open Sans';
+	font-size: 1.3em;
+	font-weight: 400;
+	color: #fff;
+}
+
+p.streaming-info-toggle {
+	color: #eeff5d;
+	text-decoration: underline;
+	font-family: 'Open Sans';
+	font-size: 1.1em;
+	font-weight: 300;
+}
+
+.mobile-footer {
+	display: none;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	height: 69px;
+	padding: 10px 0px 10px;
+	background: #eeff5d;
+	text-align: center;
+	color: #fff;
+	z-index: 1002;
+	box-shadow: -2px -4px 3px rgba(0, 0, 0, 0.3);
+}
+
+.mobile-signupform {
+	padding-top: 10px;
+	padding-bottom: 60px;
+	background-color: #000;
+	border-top: 2px solid #eeff5d;
+	width: 100%;
+	display: none;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	z-index: 1000;
+}
+
+.btn {
+    border-radius: 0px;
+    border: 3px solid #000;
+    margin-bottom: 30px;
+    padding: 10px 15px;
+    font-size: 1.2em;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    text-shadow: none;
+}
+
+.btn-signup {
+    color: #000;
+    background-color: #eeff5d;
+}
+
+.btn-signup:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+/*.yellow {
+	margin-bottom: 69px;
+}*/
+
+.desktop-only {
+	display: none;
+}
+
+}
